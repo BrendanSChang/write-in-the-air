@@ -1,13 +1,13 @@
-[h0, t0, mac0] = process_channels('./training_data/horizontal/trial_1/0h_1.txt');
-[h1, t1, mac1] = process_channels('./training_data/horizontal/trial_1/1h_1.txt');
-[h2, t2, mac2] = process_channels('./training_data/horizontal/trial_1/2h_1.txt');
-[h3, t3, mac3] = process_channels('./training_data/horizontal/trial_1/3h_1.txt');
-[h4, t4, mac4] = process_channels('./training_data/horizontal/trial_1/4h_1.txt');
-[h5, t5, mac5] = process_channels('./training_data/horizontal/trial_1/5h_1.txt');
-[h6, t6, mac6] = process_channels('./training_data/horizontal/trial_1/6h_1.txt');
-[h7, t7, mac7] = process_channels('./training_data/horizontal/trial_1/7h_1.txt');
-[h8, t8, mac8] = process_channels('./training_data/horizontal/trial_1/8h_1.txt');
-[h9, t9, mac9] = process_channels('./training_data/horizontal/trial_1/9h_1.txt');
+[h0, t0, mac0, ~] = process_channels('./training_data/horizontal/trial_1/0h_1.txt');
+[h1, t1, mac1, ~] = process_channels('./training_data/horizontal/trial_1/1h_1.txt');
+[h2, t2, mac2, ~] = process_channels('./training_data/horizontal/trial_1/2h_1.txt');
+[h3, t3, mac3, ~] = process_channels('./training_data/horizontal/trial_1/3h_1.txt');
+[h4, t4, mac4, ~] = process_channels('./training_data/horizontal/trial_1/4h_1.txt');
+[h5, t5, mac5, ~] = process_channels('./training_data/horizontal/trial_1/5h_1.txt');
+[h6, t6, mac6, ~] = process_channels('./training_data/horizontal/trial_1/6h_1.txt');
+[h7, t7, mac7, ~] = process_channels('./training_data/horizontal/trial_1/7h_1.txt');
+[h8, t8, mac8, ~] = process_channels('./training_data/horizontal/trial_1/8h_1.txt');
+[h9, t9, mac9, ~] = process_channels('./training_data/horizontal/trial_1/9h_1.txt');
 
 mac_id = ' b8:9:8a:e3:11:49';
 [~, ~, aoa0] = filter_mac(h0, t0, mac0, mac_id);
